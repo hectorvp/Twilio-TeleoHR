@@ -2,8 +2,8 @@ const express = require('express');
 let bodyParser = require('body-parser');
 const ExcelHandler = require('./excelUtil.js');
 const VoiceResponse = require('twilio').twiml.VoiceResponse;
-const accountSid = 'AC0e4dd8b1fe16a6f5834e39a37fbe8c0b';  
-const authToken = 'ca1ef6a5b49a0190e4042de7e79f32fc';
+const accountSid = 'xxxx';  
+const authToken = 'xxxx';
 const client = require('twilio')(accountSid, authToken);
 
 const app = express()

@@ -5,8 +5,8 @@
 const VoiceResponse = require('twilio').twiml.VoiceResponse;
 
 
-const accountSid = 'AC0e4dd8b1fe16a6f5834e39a37fbe8c0b';  
-const authToken = 'ca1ef6a5b49a0190e4042de7e79f32fc';
+const accountSid = 'xxxx';  
+const authToken = 'xxxx';
 const client = require('twilio')(accountSid, authToken);
 
 
@@ -39,7 +39,7 @@ client.calls
       .then(call => console.log(call.sid),error => console.log(error));
 
 	  
-// AC498e493c9f3e9f81a594e67d035ba046
-//c0ac7b696fd38c6f40db383b771693bc
+// 
+//
 //12029331372
 //http://3.87.188.18:8855/
