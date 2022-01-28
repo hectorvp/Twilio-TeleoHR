@@ -10,8 +10,8 @@ const app = express();
 
 const port = 8855;
 
-let candidateList = new ExcelHandler("Data.xlsx").candidateDetails;
-let questions = new ExcelHandler("Data.xlsx").getQuestions();
+let candidateList = new ExcelHandler("data.xlsx").candidateDetails;
+let questions = new ExcelHandler("data.xlsx").getQuestions();
 console.log(questions.length);
 console.log(JSON.stringify(candidateList));
 
